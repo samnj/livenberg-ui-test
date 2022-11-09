@@ -409,3 +409,733 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:40685/devtools/browser/187d2770-55b2-4623-82ba-b9091564bbb9
 1667968644618	Marionette	INFO	Stopped listening on port 39919
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667971407773	geckodriver	INFO	Listening on 127.0.0.1:36665
+1667971408275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEDgnPy"
+[GFX1-]: glxtest: libEGL missing
+1667971411264	Marionette	INFO	Marionette enabled
+1667971411272	Marionette	INFO	Listening on port 37737
+Read port: 37737
+WebDriver BiDi listening on ws://127.0.0.1:60415
+1667971411527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEDgnPy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60415/devtools/browser/8d0eb960-4d50-43b1-97f7-6a3717c6c233
+1667971426429	Marionette	INFO	Stopped listening on port 37737
+1667971496164	geckodriver	INFO	Listening on 127.0.0.1:50989
+1667971496172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledQsmo4"
+[GFX1-]: glxtest: libEGL missing
+1667971499011	Marionette	INFO	Marionette enabled
+1667971499018	Marionette	INFO	Listening on port 35959
+Read port: 35959
+WebDriver BiDi listening on ws://127.0.0.1:58771
+1667971499204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledQsmo4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58771/devtools/browser/beb0b4c5-6c89-4226-9e0b-239becadfcd9
+1667971503743	Marionette	INFO	Stopped listening on port 35959
+1667971559259	geckodriver	INFO	Listening on 127.0.0.1:37649
+1667971559267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiU6oLh"
+[GFX1-]: glxtest: libEGL missing
+1667971562157	Marionette	INFO	Marionette enabled
+1667971562164	Marionette	INFO	Listening on port 40233
+Read port: 40233
+WebDriver BiDi listening on ws://127.0.0.1:39543
+1667971562343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiU6oLh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39543/devtools/browser/9dff48a3-9689-4427-965c-eaeecb677beb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=FvnWhN-XaffPAlQB2v005hkwTUdtIt5SSAFij7iUCr0&code_challenge=eUaLqVwzmufwb0pqzHE4LkKh7zYc8mhTkT7XrcIAfXk&code_challenge_method=S256 line 2 > eval line 3986 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1667971576729	Marionette	INFO	Stopped listening on port 40233
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967299/customhighlighter85, type show failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\nshow@resource://devtools/client/fronts/highlighters.js:27:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:580:23\npermitUnload@chrome://global/content/elements/browser-custom-element.js:1685:21\nCanCloseWindow@chrome://browser/content/browser.js:7999:36\ncanClose@chrome://browser/content/browser.js:6483:12\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2838:22\ndespatch@chrome://remote/content/marionette/server.js:304:40\nexecute@chrome://remote/content/marionette/server.js:277:16\nonPacket/<@chrome://remote/content/marionette/server.js:250:20\nonPacket@chrome://remote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667971913790	geckodriver	INFO	Listening on 127.0.0.1:48767
+1667971913797	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNePYZe"
+[GFX1-]: glxtest: libEGL missing
+1667971916638	Marionette	INFO	Marionette enabled
+1667971916645	Marionette	INFO	Listening on port 35277
+Read port: 35277
+WebDriver BiDi listening on ws://127.0.0.1:41761
+1667971916839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNePYZe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41761/devtools/browser/e57120a3-e350-4a0d-b9bb-81c235ee1abd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=AQi-YX9AWWLAouWhcFCla60CfltcuNM_jd4YFk51aG4&code_challenge=My7p0Xnykoce9mdpFX83Yd-Hn1Jmekeig4OKD8RuDw4&code_challenge_method=S256 line 2 > eval line 1607 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1667971930156	Marionette	INFO	Stopped listening on port 35277
+1667972061721	geckodriver	INFO	Listening on 127.0.0.1:40359
+1667972061730	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAtiMcT"
+[GFX1-]: glxtest: libEGL missing
+1667972064525	Marionette	INFO	Marionette enabled
+1667972064532	Marionette	INFO	Listening on port 43963
+Read port: 43963
+WebDriver BiDi listening on ws://127.0.0.1:57253
+1667972064737	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAtiMcT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57253/devtools/browser/62e832ca-15dd-458a-b586-cfbc4e259319
+1667972068895	Marionette	INFO	Stopped listening on port 43963
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667972098116	geckodriver	INFO	Listening on 127.0.0.1:37919
+1667972098124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMvJ1IS"
+[GFX1-]: glxtest: libEGL missing
+1667972100977	Marionette	INFO	Marionette enabled
+1667972100984	Marionette	INFO	Listening on port 34237
+Read port: 34237
+WebDriver BiDi listening on ws://127.0.0.1:50865
+1667972101183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMvJ1IS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50865/devtools/browser/7571d320-7cf7-422e-89b9-dde5a4fd04aa
+1667972107124	Marionette	INFO	Stopped listening on port 34237
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1667972190828	geckodriver	INFO	Listening on 127.0.0.1:33373
+1667972190839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2flTjh"
+[GFX1-]: glxtest: libEGL missing
+1667972194380	Marionette	INFO	Marionette enabled
+1667972194387	Marionette	INFO	Listening on port 34311
+Read port: 34311
+WebDriver BiDi listening on ws://127.0.0.1:56967
+1667972194583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2flTjh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56967/devtools/browser/31d8b723-bc0b-4524-9561-356462698b27
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=WkDvcmih1OnalGsv854rlenMDCm8yn04FEEtsHdHCkE&code_challenge=x_25C5W90hrBavDNljO85cyXNB0VZpTpowIxWIhZ0BA&code_challenge_method=S256 line 2 > eval line 2822 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1667972207357	Marionette	INFO	Stopped listening on port 34311
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667972339676	geckodriver	INFO	Listening on 127.0.0.1:57951
+1667972339685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuTMhb9"
+[GFX1-]: glxtest: libEGL missing
+1667972342234	Marionette	INFO	Marionette enabled
+1667972342241	Marionette	INFO	Listening on port 46073
+Read port: 46073
+WebDriver BiDi listening on ws://127.0.0.1:50561
+1667972342431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuTMhb9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50561/devtools/browser/caa4a01a-0def-44e1-af49-6880f8d73965
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1667972348557	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1667972349149	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?trampoline=1&as=S1124304895%3A1667972349357597 line 2 > eval line 203 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1667972360017	Marionette	INFO	Stopped listening on port 46073
+1667972407858	geckodriver	INFO	Listening on 127.0.0.1:57909
+1667972407871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYei7h2"
+[GFX1-]: glxtest: libEGL missing
+1667972410992	Marionette	INFO	Marionette enabled
+1667972410999	Marionette	INFO	Listening on port 38071
+Read port: 38071
+WebDriver BiDi listening on ws://127.0.0.1:57459
+1667972411191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYei7h2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57459/devtools/browser/1b344160-4918-49e6-909c-328eec1515f1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1667972420091	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1667972421076	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?trampoline=1&as=S-100319125%3A1667972420897766 line 2 > eval line 5683 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1667972430787	Marionette	INFO	Stopped listening on port 38071
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667972450145	geckodriver	INFO	Listening on 127.0.0.1:59747
+1667972450157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileybDBZB"
+[GFX1-]: glxtest: libEGL missing
+1667972453178	Marionette	INFO	Marionette enabled
+1667972453185	Marionette	INFO	Listening on port 42921
+Read port: 42921
+WebDriver BiDi listening on ws://127.0.0.1:41563
+1667972453379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileybDBZB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41563/devtools/browser/0f04d012-ac66-438b-97f6-a21efd23d644
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=8BNgt_gxt0SBI7gHHxJ363GSeOfOSH-LBPzmzXSEVyc&code_challenge=HSmgwWIhtZ1dT25g-bfZxGo65zSY4nPasABqZUz1wF0&code_challenge_method=S256 line 2 > eval line 551 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=8BNgt_gxt0SBI7gHHxJ363GSeOfOSH-LBPzmzXSEVyc&code_challenge=HSmgwWIhtZ1dT25g-bfZxGo65zSY4nPasABqZUz1wF0&code_challenge_method=S256 line 2 > eval line 252 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=8BNgt_gxt0SBI7gHHxJ363GSeOfOSH-LBPzmzXSEVyc&code_challenge=HSmgwWIhtZ1dT25g-bfZxGo65zSY4nPasABqZUz1wF0&code_challenge_method=S256&hl=en line 2 > eval line 6177 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1667972492858	Marionette	INFO	Stopped listening on port 42921
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667972496563	geckodriver	INFO	Listening on 127.0.0.1:54915
+1667972496574	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36121" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefTCo8r"
+[GFX1-]: glxtest: libEGL missing
+1667972499354	Marionette	INFO	Marionette enabled
+1667972499361	Marionette	INFO	Listening on port 40421
+Read port: 40421
+WebDriver BiDi listening on ws://127.0.0.1:36121
+1667972499552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefTCo8r/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36121/devtools/browser/db35cca4-7fdb-4853-ab1e-cdf713578b4f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=Dl_1Q4gzBQiN1fWKZTFcNgg_lXSZkmzK5OwzhWeaSkg&code_challenge=nJOCWtOWJ9gZd78zbJByye01VzH5kpFehox7HXpko_4&code_challenge_method=S256 line 2 > eval line 5123 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?client_id=251149908410-mers0ujkqhqu7st74fcis5qh1s078291.apps.googleusercontent.com&scope=openid%20email%20profile&response_type=code&redirect_uri=https%3A%2F%2Flivenberg.vercel.app%2Fapi%2Fauth%2Fcallback%2Fgoogle&state=Dl_1Q4gzBQiN1fWKZTFcNgg_lXSZkmzK5OwzhWeaSkg&code_challenge=nJOCWtOWJ9gZd78zbJByye01VzH5kpFehox7HXpko_4&code_challenge_method=S256 line 2 > eval line 443 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1667972516615	Marionette	INFO	Stopped listening on port 40421
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667975294514	geckodriver	INFO	Listening on 127.0.0.1:41009
+1667975295017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48165" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2hKuBu"
+[GFX1-]: glxtest: libEGL missing
+1667975298079	Marionette	INFO	Marionette enabled
+1667975298087	Marionette	INFO	Listening on port 42143
+Read port: 42143
+WebDriver BiDi listening on ws://127.0.0.1:48165
+1667975298295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2hKuBu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48165/devtools/browser/3662cfb5-1c33-480f-a00b-8aac6f306b55
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.error: "Exception while getting unique selector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967299/domnode24, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\n_create/<@resource://devtools/client/inspector/rules/views/rule-editor.js:217:48\n_create@resource://devtools/client/inspector/rules/views/rule-editor.js:233:20\nRuleEditor@resource://devtools/client/inspector/rules/views/rule-editor.js:79:8\n_createEditors@resource://devtools/client/inspector/rules/rules.js:1339:23\n_populate/<@resource://devtools/client/inspector/rules/rules.js:1124:37\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Exception while getting unique selector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967299/domnode82, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\n_create/<@resource://devtools/client/inspector/rules/views/rule-editor.js:220:72\n_create@resource://devtools/client/inspector/rules/views/rule-editor.js:233:20\nRuleEditor@resource://devtools/client/inspector/rules/views/rule-editor.js:79:8\n_createEditors@resource://devtools/client/inspector/rules/rules.js:1339:23\n_populate/<@resource://devtools/client/inspector/rules/rules.js:1124:37\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667975323814	Marionette	INFO	Stopped listening on port 42143
+1667975427449	geckodriver	INFO	Listening on 127.0.0.1:58375
+1667975427462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilee45tlp"
+[GFX1-]: glxtest: libEGL missing
+1667975430349	Marionette	INFO	Marionette enabled
+1667975430356	Marionette	INFO	Listening on port 32881
+Read port: 32881
+WebDriver BiDi listening on ws://127.0.0.1:40827
+1667975430548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee45tlp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40827/devtools/browser/ad270bfe-9ef2-4c9a-adfb-b67f9ef5e643
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667975442030	Marionette	INFO	Stopped listening on port 32881
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667975455904	geckodriver	INFO	Listening on 127.0.0.1:40743
+1667975455913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilengx2u9"
+[GFX1-]: glxtest: libEGL missing
+1667975458587	Marionette	INFO	Marionette enabled
+1667975458593	Marionette	INFO	Listening on port 46075
+Read port: 46075
+WebDriver BiDi listening on ws://127.0.0.1:45437
+1667975458805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilengx2u9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45437/devtools/browser/753d4195-053a-479d-9e26-4b153286195b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667975474412	Marionette	INFO	Stopped listening on port 46075
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667977743705	geckodriver	INFO	Listening on 127.0.0.1:47737
+1667977743722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEBvjch"
+[GFX1-]: glxtest: libEGL missing
+1667977746795	Marionette	INFO	Marionette enabled
+1667977746802	Marionette	INFO	Listening on port 39123
+Read port: 39123
+WebDriver BiDi listening on ws://127.0.0.1:52939
+1667977746998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEBvjch/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52939/devtools/browser/28f90b8b-14fe-4f6e-9742-93696fdcfdf3
+1667977754788	Marionette	INFO	Stopped listening on port 39123
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667977844630	geckodriver	INFO	Listening on 127.0.0.1:55231
+1667977844707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJF5dpd"
+[GFX1-]: glxtest: libEGL missing
+1667977848554	Marionette	INFO	Marionette enabled
+1667977848562	Marionette	INFO	Listening on port 38697
+Read port: 38697
+WebDriver BiDi listening on ws://127.0.0.1:59051
+1667977848763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJF5dpd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59051/devtools/browser/3d9ca82b-6102-4d15-be92-8f477ca49694
+1667977855251	Marionette	INFO	Stopped listening on port 38697
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667977961823	geckodriver	INFO	Listening on 127.0.0.1:36047
+1667977961832	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55723" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilej017Ll"
+[GFX1-]: glxtest: libEGL missing
+1667977964895	Marionette	INFO	Marionette enabled
+1667977964902	Marionette	INFO	Listening on port 46479
+Read port: 46479
+WebDriver BiDi listening on ws://127.0.0.1:55723
+1667977965091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilej017Ll/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55723/devtools/browser/eae80616-c591-428b-8d4f-6501e61ae08e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667977970952	Marionette	INFO	Stopped listening on port 46479
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667979090438	geckodriver	INFO	Listening on 127.0.0.1:37035
+1667979090448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenSqlze"
+[GFX1-]: glxtest: libEGL missing
+1667979093492	Marionette	INFO	Marionette enabled
+1667979093498	Marionette	INFO	Listening on port 38131
+Read port: 38131
+WebDriver BiDi listening on ws://127.0.0.1:50007
+1667979093706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenSqlze/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50007/devtools/browser/4af52129-16e8-4152-8043-915ff687c0c2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+JavaScript error: https://github.githubassets.com/assets/wp-runtime-5469aaf6fb2a.js, line 1: ChunkLoadError: Loading chunk app_components_primer_experimental_toggle-switch-element_ts failed.
+(error: https://github.githubassets.com/assets/chunk-app_components_primer_experimental_toggle-switch-element_ts-8d9d1aec570e.js)
+1667979112145	Marionette	INFO	Stopped listening on port 38131
+1667979120870	geckodriver	INFO	Listening on 127.0.0.1:55253
+1667979120882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePstfjO"
+[GFX1-]: glxtest: libEGL missing
+1667979126439	Marionette	INFO	Marionette enabled
+1667979126448	Marionette	INFO	Listening on port 34077
+Read port: 34077
+WebDriver BiDi listening on ws://127.0.0.1:36857
+1667979126663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePstfjO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36857/devtools/browser/f6955ba6-b830-4166-9f16-1c0a89b92edd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667979140382	Marionette	INFO	Stopped listening on port 34077
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667979143973	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1667979580764	geckodriver	INFO	Listening on 127.0.0.1:47031
+1667979580773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegcJBD4"
+[GFX1-]: glxtest: libEGL missing
+1667979583515	Marionette	INFO	Marionette enabled
+1667979583524	Marionette	INFO	Listening on port 37513
+Read port: 37513
+WebDriver BiDi listening on ws://127.0.0.1:43421
+1667979583721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegcJBD4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43421/devtools/browser/77705b78-886c-484e-a773-f67c64021c7d
+1667979587375	Marionette	INFO	Stopped listening on port 37513
+1667979675559	geckodriver	INFO	Listening on 127.0.0.1:48233
+1667979675569	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2NM043"
+[GFX1-]: glxtest: libEGL missing
+1667979678421	Marionette	INFO	Marionette enabled
+1667979678428	Marionette	INFO	Listening on port 34171
+Read port: 34171
+WebDriver BiDi listening on ws://127.0.0.1:45889
+1667979678608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2NM043/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45889/devtools/browser/b1ee89bf-c8f7-4a23-baa7-d826281793b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667979686467	Marionette	INFO	Stopped listening on port 34171
+1667979858021	geckodriver	INFO	Listening on 127.0.0.1:33149
+1667979858029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHpUKCt"
+[GFX1-]: glxtest: libEGL missing
+1667979860825	Marionette	INFO	Marionette enabled
+1667979860833	Marionette	INFO	Listening on port 46431
+Read port: 46431
+WebDriver BiDi listening on ws://127.0.0.1:44547
+1667979861027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHpUKCt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44547/devtools/browser/a466efab-8f47-401a-bb16-eb96a3565c70
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667979869175	Marionette	INFO	Stopped listening on port 46431
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667980300374	geckodriver	INFO	Listening on 127.0.0.1:47553
+1667980300384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55149" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezaOd0r"
+[GFX1-]: glxtest: libEGL missing
+1667980303161	Marionette	INFO	Marionette enabled
+1667980303167	Marionette	INFO	Listening on port 45797
+Read port: 45797
+WebDriver BiDi listening on ws://127.0.0.1:55149
+1667980303360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezaOd0r/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55149/devtools/browser/5e0443ba-97c0-46ae-a77d-2f89cbd8f5d5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667980309963	Marionette	INFO	Stopped listening on port 45797
+1667980400892	geckodriver	INFO	Listening on 127.0.0.1:53113
+1667980400906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8tsQrp"
+[GFX1-]: glxtest: libEGL missing
+1667980403836	Marionette	INFO	Marionette enabled
+1667980403843	Marionette	INFO	Listening on port 39743
+Read port: 39743
+WebDriver BiDi listening on ws://127.0.0.1:53421
+1667980404036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8tsQrp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53421/devtools/browser/bba34415-57d4-47fc-9c96-de6fdfae7c36
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667980424415	Marionette	INFO	Stopped listening on port 39743
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667981074891	geckodriver	INFO	Listening on 127.0.0.1:44147
+1667981074900	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEtIn8L"
+[GFX1-]: glxtest: libEGL missing
+1667981077831	Marionette	INFO	Marionette enabled
+1667981077838	Marionette	INFO	Listening on port 43217
+Read port: 43217
+WebDriver BiDi listening on ws://127.0.0.1:33439
+1667981078036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEtIn8L/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33439/devtools/browser/ce95eeaf-ce84-4a85-816d-6f6d5b6ee9d8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667981090028	Marionette	INFO	Stopped listening on port 43217
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667981134447	geckodriver	INFO	Listening on 127.0.0.1:52141
+1667981134459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqQf64B"
+[GFX1-]: glxtest: libEGL missing
+1667981137245	Marionette	INFO	Marionette enabled
+1667981137252	Marionette	INFO	Listening on port 36063
+Read port: 36063
+WebDriver BiDi listening on ws://127.0.0.1:53771
+1667981137451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqQf64B/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53771/devtools/browser/6cbb3cfa-e4b8-48d0-8386-08919e030ea6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667981146280	Marionette	INFO	Stopped listening on port 36063
+1667981565629	geckodriver	INFO	Listening on 127.0.0.1:36349
+1667981565637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefauOKL"
+[GFX1-]: glxtest: libEGL missing
+1667981568307	Marionette	INFO	Marionette enabled
+1667981568314	Marionette	INFO	Listening on port 42625
+Read port: 42625
+WebDriver BiDi listening on ws://127.0.0.1:45135
+1667981568513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefauOKL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45135/devtools/browser/31c19471-c5a0-4398-9fdc-74bfdc1ace42
+1667981574029	Marionette	INFO	Stopped listening on port 42625
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667983422142	geckodriver	INFO	Listening on 127.0.0.1:44347
+1667983422152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFPQaFJ"
+[GFX1-]: glxtest: libEGL missing
+1667983425255	Marionette	INFO	Marionette enabled
+1667983425263	Marionette	INFO	Listening on port 37195
+Read port: 37195
+WebDriver BiDi listening on ws://127.0.0.1:51131
+1667983425464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFPQaFJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51131/devtools/browser/a251bfd3-fb0c-4f02-a05e-8484a783214b
+1667983430877	Marionette	INFO	Stopped listening on port 37195
+1667983467523	geckodriver	INFO	Listening on 127.0.0.1:39825
+1667983467531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37635" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXzZzyP"
+[GFX1-]: glxtest: libEGL missing
+1667983470441	Marionette	INFO	Marionette enabled
+1667983470449	Marionette	INFO	Listening on port 37149
+Read port: 37149
+WebDriver BiDi listening on ws://127.0.0.1:37635
+1667983470639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXzZzyP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37635/devtools/browser/5900f069-985b-44af-9657-a72fd2d90e64
+1667983475148	Marionette	INFO	Stopped listening on port 37149
+1667984028265	geckodriver	INFO	Listening on 127.0.0.1:44799
+1667984028771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42239" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRq4uBN"
+[GFX1-]: glxtest: libEGL missing
+1667984032251	Marionette	INFO	Marionette enabled
+1667984032263	Marionette	INFO	Listening on port 45367
+Read port: 45367
+WebDriver BiDi listening on ws://127.0.0.1:42239
+1667984032607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRq4uBN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42239/devtools/browser/75b1947a-e5e6-48eb-b3d0-520dd2e83f85
+1667984050805	Marionette	INFO	Stopped listening on port 45367
+1667985004274	geckodriver	INFO	Listening on 127.0.0.1:34275
+1667985004284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54729" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8L4W1K"
+[GFX1-]: glxtest: libEGL missing
+1667985006752	Marionette	INFO	Marionette enabled
+1667985006758	Marionette	INFO	Listening on port 38265
+Read port: 38265
+WebDriver BiDi listening on ws://127.0.0.1:54729
+1667985006956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8L4W1K/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54729/devtools/browser/d1aee3a4-08da-441a-bc5c-610b475f6498
+1667985011490	Marionette	INFO	Stopped listening on port 38265
+1667985486091	geckodriver	INFO	Listening on 127.0.0.1:33749
+1667985486099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehG7OEN"
+[GFX1-]: glxtest: libEGL missing
+1667985488999	Marionette	INFO	Marionette enabled
+1667985489007	Marionette	INFO	Listening on port 37185
+Read port: 37185
+WebDriver BiDi listening on ws://127.0.0.1:43661
+1667985489198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehG7OEN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43661/devtools/browser/52d6fc1f-35d7-4c7f-895d-265f479f5f28
+1667985494107	Marionette	INFO	Stopped listening on port 37185
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667985634174	geckodriver	INFO	Listening on 127.0.0.1:56011
+1667985634188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRWe4TJ"
+[GFX1-]: glxtest: libEGL missing
+1667985637028	Marionette	INFO	Marionette enabled
+1667985637036	Marionette	INFO	Listening on port 34311
+Read port: 34311
+WebDriver BiDi listening on ws://127.0.0.1:37829
+1667985637232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRWe4TJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37829/devtools/browser/4d22c586-c101-4de3-98fb-4c4aa9a660da
+1667985645152	Marionette	INFO	Stopped listening on port 34311
+1667985802546	geckodriver	INFO	Listening on 127.0.0.1:33131
+1667985802554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43333" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQ0HDbQ"
+[GFX1-]: glxtest: libEGL missing
+1667985805525	Marionette	INFO	Marionette enabled
+1667985805531	Marionette	INFO	Listening on port 34073
+Read port: 34073
+WebDriver BiDi listening on ws://127.0.0.1:43333
+1667985805718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ0HDbQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43333/devtools/browser/1f6f66a7-4d74-473c-8ac3-6cea30887ae3
+1667985809732	Marionette	INFO	Stopped listening on port 34073
+1667986180512	geckodriver	INFO	Listening on 127.0.0.1:46843
+1667986180523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexGo9OL"
+[GFX1-]: glxtest: libEGL missing
+1667986183219	Marionette	INFO	Marionette enabled
+1667986183225	Marionette	INFO	Listening on port 42473
+Read port: 42473
+WebDriver BiDi listening on ws://127.0.0.1:41529
+1667986183416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexGo9OL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41529/devtools/browser/5d7b1406-002f-4745-90e9-ea376b7fbc15
+1667986187750	Marionette	INFO	Stopped listening on port 42473
+1667986219148	geckodriver	INFO	Listening on 127.0.0.1:48003
+1667986219160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDolvyw"
+[GFX1-]: glxtest: libEGL missing
+1667986222008	Marionette	INFO	Marionette enabled
+1667986222015	Marionette	INFO	Listening on port 33527
+Read port: 33527
+WebDriver BiDi listening on ws://127.0.0.1:33053
+1667986222204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDolvyw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33053/devtools/browser/8fa3bb78-7c21-41b9-934f-51cd90ce4593
+1667986226456	Marionette	INFO	Stopped listening on port 33527
+1667986615837	geckodriver	INFO	Listening on 127.0.0.1:47589
+1667986615848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea4dmPc"
+[GFX1-]: glxtest: libEGL missing
+1667986618914	Marionette	INFO	Marionette enabled
+1667986618922	Marionette	INFO	Listening on port 40087
+Read port: 40087
+WebDriver BiDi listening on ws://127.0.0.1:41683
+1667986619130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea4dmPc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41683/devtools/browser/a06795ff-febd-4c01-be54-a49a5fd99796
+1667986634724	Marionette	INFO	Stopped listening on port 40087
+1667986772086	geckodriver	INFO	Listening on 127.0.0.1:52297
+1667986772094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEqywri"
+[GFX1-]: glxtest: libEGL missing
+1667986775129	Marionette	INFO	Marionette enabled
+1667986775137	Marionette	INFO	Listening on port 38519
+Read port: 38519
+WebDriver BiDi listening on ws://127.0.0.1:52843
+1667986775334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEqywri/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52843/devtools/browser/a514a6fd-68fb-4745-9d3c-8ebd4b72f613
+1667986789695	Marionette	INFO	Stopped listening on port 38519
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667986819913	geckodriver	INFO	Listening on 127.0.0.1:54185
+1667986819921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8BUzDq"
+[GFX1-]: glxtest: libEGL missing
+1667986822722	Marionette	INFO	Marionette enabled
+1667986822729	Marionette	INFO	Listening on port 39061
+Read port: 39061
+WebDriver BiDi listening on ws://127.0.0.1:57855
+1667986822912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8BUzDq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57855/devtools/browser/388208f0-b5d0-4fc6-9764-9597ae31c080
+1667986826865	Marionette	INFO	Stopped listening on port 39061
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667986852056	geckodriver	INFO	Listening on 127.0.0.1:35539
+1667986852069	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38657" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemZK0aP"
+[GFX1-]: glxtest: libEGL missing
+1667986854782	Marionette	INFO	Marionette enabled
+1667986854789	Marionette	INFO	Listening on port 35383
+Read port: 35383
+WebDriver BiDi listening on ws://127.0.0.1:38657
+1667986854978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemZK0aP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38657/devtools/browser/baf7ecd5-29d3-43bd-ba69-2d75e41c2002
+1667986859047	Marionette	INFO	Stopped listening on port 35383
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667987039442	geckodriver	INFO	Listening on 127.0.0.1:55183
+1667987039450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56029" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefFH0ao"
+[GFX1-]: glxtest: libEGL missing
+1667987042269	Marionette	INFO	Marionette enabled
+1667987042276	Marionette	INFO	Listening on port 35607
+Read port: 35607
+WebDriver BiDi listening on ws://127.0.0.1:56029
+1667987042488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefFH0ao/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56029/devtools/browser/7c0216be-dfc2-4559-9708-78d3bff2768f
+1667987047546	Marionette	INFO	Stopped listening on port 35607
+1667987079224	geckodriver	INFO	Listening on 127.0.0.1:41449
+1667987079232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyOChFp"
+[GFX1-]: glxtest: libEGL missing
+1667987082110	Marionette	INFO	Marionette enabled
+1667987082117	Marionette	INFO	Listening on port 35447
+Read port: 35447
+WebDriver BiDi listening on ws://127.0.0.1:46843
+1667987082304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyOChFp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46843/devtools/browser/6f231223-f0a9-4979-8db0-f8ee226a96cc
+1667987086049	Marionette	INFO	Stopped listening on port 35447
+1667987733162	geckodriver	INFO	Listening on 127.0.0.1:53967
+1667987733170	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9ch7rq"
+[GFX1-]: glxtest: libEGL missing
+1667987735998	Marionette	INFO	Marionette enabled
+1667987736006	Marionette	INFO	Listening on port 32901
+Read port: 32901
+WebDriver BiDi listening on ws://127.0.0.1:56895
+1667987736203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9ch7rq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56895/devtools/browser/99dd560c-25bc-4a66-a9c1-7ccc22d53d57
+1667987750948	Marionette	INFO	Stopped listening on port 32901
+1667988014324	geckodriver	INFO	Listening on 127.0.0.1:37099
+1667988014333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMf4ef2"
+[GFX1-]: glxtest: libEGL missing
+1667988017402	Marionette	INFO	Marionette enabled
+1667988017410	Marionette	INFO	Listening on port 46205
+Read port: 46205
+WebDriver BiDi listening on ws://127.0.0.1:37941
+1667988017599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMf4ef2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37941/devtools/browser/0136f7ed-6186-49fe-a31d-4d9a69ff633f
+1667988032100	Marionette	INFO	Stopped listening on port 46205
+1667988111748	geckodriver	INFO	Listening on 127.0.0.1:51817
+1667988111758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36803" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZgPIq7"
+[GFX1-]: glxtest: libEGL missing
+1667988114792	Marionette	INFO	Marionette enabled
+1667988114800	Marionette	INFO	Listening on port 41429
+Read port: 41429
+WebDriver BiDi listening on ws://127.0.0.1:36803
+1667988114987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZgPIq7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36803/devtools/browser/08ef03b8-c08d-4552-ad2a-577d313fbbb6
+1667988129661	Marionette	INFO	Stopped listening on port 41429
+1667988200153	geckodriver	INFO	Listening on 127.0.0.1:57163
+1667988200162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39433" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7SYD2O"
+[GFX1-]: glxtest: libEGL missing
+1667988203142	Marionette	INFO	Marionette enabled
+1667988203152	Marionette	INFO	Listening on port 42271
+Read port: 42271
+WebDriver BiDi listening on ws://127.0.0.1:39433
+1667988203344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7SYD2O/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39433/devtools/browser/6479e3db-4641-4074-9965-215e8e663e07
+1667988207984	Marionette	INFO	Stopped listening on port 42271
+1667988329376	geckodriver	INFO	Listening on 127.0.0.1:43995
+1667988329387	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOyvP7r"
+[GFX1-]: glxtest: libEGL missing
+1667988332898	Marionette	INFO	Marionette enabled
+1667988332905	Marionette	INFO	Listening on port 43871
+Read port: 43871
+WebDriver BiDi listening on ws://127.0.0.1:37139
+1667988333099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOyvP7r/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37139/devtools/browser/59535ac0-045a-4a27-9bdf-e16e932a8e80
+1667988337724	Marionette	INFO	Stopped listening on port 43871
+1667988386931	geckodriver	INFO	Listening on 127.0.0.1:60633
+1667988386941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEZVS2C"
+[GFX1-]: glxtest: libEGL missing
+1667988390418	Marionette	INFO	Marionette enabled
+1667988390427	Marionette	INFO	Listening on port 45237
+Read port: 45237
+WebDriver BiDi listening on ws://127.0.0.1:37065
+1667988390640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEZVS2C/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37065/devtools/browser/3052f283-89d6-47ae-ad3a-aaa9ed586325
+1667988395299	Marionette	INFO	Stopped listening on port 45237
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667988416982	geckodriver	INFO	Listening on 127.0.0.1:48615
+1667988416998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48043" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileH2Ka79"
+[GFX1-]: glxtest: libEGL missing
+1667988420406	Marionette	INFO	Marionette enabled
+1667988420413	Marionette	INFO	Listening on port 43981
+Read port: 43981
+WebDriver BiDi listening on ws://127.0.0.1:48043
+1667988420613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileH2Ka79/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48043/devtools/browser/5bdc05d7-8ebc-4ecb-b660-d51a779bf774
+1667988425959	Marionette	INFO	Stopped listening on port 43981
+1667988479571	geckodriver	INFO	Listening on 127.0.0.1:47507
+1667988479579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMu68El"
+[GFX1-]: glxtest: libEGL missing
+1667988482202	Marionette	INFO	Marionette enabled
+1667988482208	Marionette	INFO	Listening on port 36443
+Read port: 36443
+WebDriver BiDi listening on ws://127.0.0.1:54069
+1667988482400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMu68El/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54069/devtools/browser/df25ec17-9339-49c1-8c26-2ed7c507c294
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667988489407	Marionette	INFO	Stopped listening on port 36443
+1667988667473	geckodriver	INFO	Listening on 127.0.0.1:50945
+1667988667479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55089" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile91Fn4q"
+[GFX1-]: glxtest: libEGL missing
+1667988670463	Marionette	INFO	Marionette enabled
+1667988670470	Marionette	INFO	Listening on port 39625
+Read port: 39625
+WebDriver BiDi listening on ws://127.0.0.1:55089
+1667988670665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile91Fn4q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55089/devtools/browser/66768b24-ffdf-4528-b970-43a98489ef6b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667988683429	Marionette	INFO	Stopped listening on port 39625
+1667988697185	geckodriver	INFO	Listening on 127.0.0.1:36795
+1667988697193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ7sktu"
+[GFX1-]: glxtest: libEGL missing
+1667988699802	Marionette	INFO	Marionette enabled
+1667988699808	Marionette	INFO	Listening on port 45633
+Read port: 45633
+WebDriver BiDi listening on ws://127.0.0.1:39545
+1667988699991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ7sktu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39545/devtools/browser/947ccfc7-96a9-4a7d-92d9-2cdb545a844f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://github.com."
+1667988711252	Marionette	INFO	Stopped listening on port 45633

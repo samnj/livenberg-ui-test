@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 
 class LivenbergHomePage:
     URL = "https://livenberg.vercel.app/"
-
     SEARCH_INPUT = (By.ID, "searchBar")
 
     def __init__(self, browser):

@@ -8,6 +8,7 @@ pytest = "*"
 selenium = "*"
 black = "*"
 pytest-xdist = "*"
+pytest-dotenv = "*"
 
 [dev-packages]
 
@@ -19,3 +20,7 @@ test_hl_chrome = "python -m pytest -n auto --browser headlesschrome"
 test_hl_ff = "python -m pytest -n auto --browser headlessfirefox"
 test_ff = "python -m pytest -n auto --browser firefox"
 test_chrome = "python -m pytest -n auto --browser chrome"
+
+[pytest]
+env_files =
+  .env

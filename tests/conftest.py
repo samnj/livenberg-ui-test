@@ -1,5 +1,6 @@
 import pytest
 import selenium.webdriver
+import json
 
 
 def pytest_addoption(parser):

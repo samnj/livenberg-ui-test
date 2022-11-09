@@ -1,4 +1,0 @@
-{
-  "browsers": ["firefox", "chrome", "headlesschrome"],
-  "implicit_wait": 10
-}
