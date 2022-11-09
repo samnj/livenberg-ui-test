@@ -7,8 +7,15 @@ name = "pypi"
 pytest = "*"
 selenium = "*"
 black = "*"
+pytest-xdist = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+test_hl_chrome = "python -m pytest -n auto --browser headlesschrome"
+test_hl_ff = "python -m pytest -n auto --browser headlessfirefox"
+test_ff = "python -m pytest -n auto --browser firefox"
+test_chrome = "python -m pytest -n auto --browser chrome"

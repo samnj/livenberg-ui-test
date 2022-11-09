@@ -1,0 +1,411 @@
+1667961207141	geckodriver	INFO	Listening on 127.0.0.1:53211
+1667961207141	geckodriver	INFO	Listening on 127.0.0.1:59947
+1667961207141	geckodriver	INFO	Listening on 127.0.0.1:40381
+1667961207142	geckodriver	INFO	Listening on 127.0.0.1:33733
+1667961207619	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35747" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletFLOI4"
+1667961207620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4MXwOX"
+1667961207620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJWZJeK"
+1667961207620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52469" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileruJ32N"
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+1667961213155	Marionette	INFO	Marionette enabled
+1667961213155	Marionette	INFO	Marionette enabled
+1667961213155	Marionette	INFO	Marionette enabled
+1667961213155	Marionette	INFO	Marionette enabled
+1667961213165	Marionette	INFO	Listening on port 42671
+1667961213165	Marionette	INFO	Listening on port 36235
+1667961213166	Marionette	INFO	Listening on port 39027
+1667961213166	Marionette	INFO	Listening on port 39295
+Read port: 39027
+Read port: 42671
+Read port: 39295
+Read port: 36235
+WebDriver BiDi listening on ws://127.0.0.1:52469
+WebDriver BiDi listening on ws://127.0.0.1:54479
+WebDriver BiDi listening on ws://127.0.0.1:37663
+WebDriver BiDi listening on ws://127.0.0.1:35747
+1667961213585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667961213588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667961213588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667961213601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4MXwOX/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletFLOI4/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileruJ32N/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJWZJeK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35747/devtools/browser/f5f92ae6-b362-4e86-95c8-dcbdd31160b1
+DevTools listening on ws://127.0.0.1:52469/devtools/browser/02b7659c-dedf-4b87-ae83-5959157eb8bc
+DevTools listening on ws://127.0.0.1:54479/devtools/browser/096b4712-79d6-4549-95a7-143df11b9174
+DevTools listening on ws://127.0.0.1:37663/devtools/browser/b2af6a7a-ec6e-4524-929a-2ea515b921d6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667961235796	Marionette	INFO	Stopped listening on port 39295
+1667961238925	Marionette	INFO	Stopped listening on port 42671
+1667961240477	Marionette	INFO	Stopped listening on port 39027
+1667961242835	Marionette	INFO	Stopped listening on port 36235
+1667961429257	geckodriver	INFO	Listening on 127.0.0.1:58017
+1667961429270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHQXZ5f"
+[GFX1-]: glxtest: libEGL missing
+1667961432151	Marionette	INFO	Marionette enabled
+1667961432157	Marionette	INFO	Listening on port 36289
+Read port: 36289
+WebDriver BiDi listening on ws://127.0.0.1:45919
+1667961432349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHQXZ5f/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45919/devtools/browser/875a56c0-e27e-476a-86bf-a3f44f438f4e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667961440468	Marionette	INFO	Stopped listening on port 36289
+1667961441812	geckodriver	INFO	Listening on 127.0.0.1:55931
+1667961441822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53541" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea2xP1s"
+[GFX1-]: glxtest: libEGL missing
+1667961445197	Marionette	INFO	Marionette enabled
+1667961445204	Marionette	INFO	Listening on port 37647
+Read port: 37647
+WebDriver BiDi listening on ws://127.0.0.1:53541
+1667961445410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea2xP1s/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53541/devtools/browser/bf35563e-890d-4a42-8666-c422dc91c941
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667961454524	Marionette	INFO	Stopped listening on port 37647
+1667961455641	geckodriver	INFO	Listening on 127.0.0.1:51369
+1667961456146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledIAogM"
+[GFX1-]: glxtest: libEGL missing
+1667961459199	Marionette	INFO	Marionette enabled
+1667961459208	Marionette	INFO	Listening on port 36301
+Read port: 36301
+WebDriver BiDi listening on ws://127.0.0.1:46173
+1667961459411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledIAogM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46173/devtools/browser/a4513367-a9f1-4b81-a33e-e94a51275230
+1667961465734	Marionette	INFO	Stopped listening on port 36301
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667961466682	geckodriver	INFO	Listening on 127.0.0.1:59767
+1667961467185	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZt7AMj"
+[GFX1-]: glxtest: libEGL missing
+1667961470142	Marionette	INFO	Marionette enabled
+1667961470152	Marionette	INFO	Listening on port 34903
+Read port: 34903
+WebDriver BiDi listening on ws://127.0.0.1:33131
+1667961470358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZt7AMj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33131/devtools/browser/4e73cdd3-e1a4-4b0f-b4f1-e3f33b0ebb1e
+1667961478481	Marionette	INFO	Stopped listening on port 34903
+1667961511487	geckodriver	INFO	Listening on 127.0.0.1:56729
+1667961511488	geckodriver	INFO	Listening on 127.0.0.1:49277
+1667961511493	geckodriver	INFO	Listening on 127.0.0.1:60133
+1667961511503	geckodriver	INFO	Listening on 127.0.0.1:53869
+1667961511505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexdFJ1k"
+1667961511506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3TSges"
+1667961511512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58651" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevBjvZx"
+1667961511517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSBzgGT"
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+1667961514186	Marionette	INFO	Marionette enabled
+1667961514197	Marionette	INFO	Listening on port 34561
+[GFX1-]: glxtest: libEGL missing
+1667961514226	Marionette	INFO	Marionette enabled
+Read port: 34561
+1667961514240	Marionette	INFO	Listening on port 39475
+[GFX1-]: glxtest: libEGL missing
+1667961514260	Marionette	INFO	Marionette enabled
+1667961514270	Marionette	INFO	Listening on port 46175
+1667961514293	Marionette	INFO	Marionette enabled
+1667961514302	Marionette	INFO	Listening on port 39029
+Read port: 46175
+Read port: 39475
+Read port: 39029
+WebDriver BiDi listening on ws://127.0.0.1:34501
+WebDriver BiDi listening on ws://127.0.0.1:42253
+WebDriver BiDi listening on ws://127.0.0.1:47853
+1667961514478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:58651
+1667961514537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667961514544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667961514602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSBzgGT/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3TSges/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevBjvZx/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexdFJ1k/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34501/devtools/browser/5289072f-7cd8-41b8-8726-12ee05435ebd
+DevTools listening on ws://127.0.0.1:42253/devtools/browser/3eb65528-2e55-4339-88d6-7e008c6d817e
+DevTools listening on ws://127.0.0.1:58651/devtools/browser/ea3bb17d-db96-46c8-829e-bad2782bb5a8
+DevTools listening on ws://127.0.0.1:47853/devtools/browser/4c8b2f38-afa3-4e07-8e55-17edc540b5c6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667961531064	Marionette	INFO	Stopped listening on port 34561
+1667961532861	Marionette	INFO	Stopped listening on port 39029
+1667961533968	Marionette	INFO	Stopped listening on port 39475
+1667961533996	Marionette	INFO	Stopped listening on port 46175
+1667961595839	geckodriver	INFO	Listening on 127.0.0.1:51403
+1667961595840	geckodriver	INFO	Listening on 127.0.0.1:60867
+1667961595841	geckodriver	INFO	Listening on 127.0.0.1:55001
+1667961595850	geckodriver	INFO	Listening on 127.0.0.1:45293
+1667961595854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXy2dGU"
+1667961595857	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGWQKqQ"
+1667961595859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileokK4gL"
+1667961595861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWroRdD"
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+1667961598628	Marionette	INFO	Marionette enabled
+1667961598641	Marionette	INFO	Listening on port 33601
+[GFX1-]: glxtest: libEGL missing
+1667961598660	Marionette	INFO	Marionette enabled
+Read port: 33601
+1667961598678	Marionette	INFO	Listening on port 44795
+1667961598697	Marionette	INFO	Marionette enabled
+[GFX1-]: glxtest: libEGL missing
+1667961598710	Marionette	INFO	Listening on port 41823
+1667961598746	Marionette	INFO	Marionette enabled
+1667961598755	Marionette	INFO	Listening on port 40899
+Read port: 40899
+Read port: 41823
+Read port: 44795
+WebDriver BiDi listening on ws://127.0.0.1:45967
+WebDriver BiDi listening on ws://127.0.0.1:56277
+WebDriver BiDi listening on ws://127.0.0.1:39365
+1667961598957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667961598963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:54297
+1667961599025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667961599066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXy2dGU/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWroRdD/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGWQKqQ/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileokK4gL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45967/devtools/browser/9d7bf7e2-ea4b-4ba6-9644-2a7f5a51e0e4
+DevTools listening on ws://127.0.0.1:54297/devtools/browser/07fe1b6f-8ba5-426c-8807-b70736dd5e26
+DevTools listening on ws://127.0.0.1:56277/devtools/browser/80b15c6c-0fb2-4134-893e-9335551eb9a6
+DevTools listening on ws://127.0.0.1:39365/devtools/browser/a6b8682c-ab3d-4ba9-b95e-f50c9afb231b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667961611566	Marionette	INFO	Stopped listening on port 40899
+1667961612290	Marionette	INFO	Stopped listening on port 33601
+1667961613343	Marionette	INFO	Stopped listening on port 44795
+1667961613398	Marionette	INFO	Stopped listening on port 41823
+1667962447125	geckodriver	INFO	Listening on 127.0.0.1:50141
+1667962447127	geckodriver	INFO	Listening on 127.0.0.1:58641
+1667962447127	geckodriver	INFO	Listening on 127.0.0.1:38119
+1667962447135	geckodriver	INFO	Listening on 127.0.0.1:36657
+1667962447140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47187" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemStFNS"
+1667962447142	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIKSvPL"
+1667962447145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2XGdNh"
+1667962447146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilex2INBw"
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+1667962449936	Marionette	INFO	Marionette enabled
+[GFX1-]: glxtest: libEGL missing
+1667962449958	Marionette	INFO	Listening on port 44611
+1667962449963	Marionette	INFO	Marionette enabled
+1667962449974	Marionette	INFO	Listening on port 34961
+[GFX1-]: glxtest: libEGL missing
+1667962449986	Marionette	INFO	Marionette enabled
+1667962449998	Marionette	INFO	Listening on port 33993
+1667962450027	Marionette	INFO	Marionette enabled
+1667962450037	Marionette	INFO	Listening on port 33455
+Read port: 44611
+Read port: 34961
+Read port: 33455
+Read port: 33993
+WebDriver BiDi listening on ws://127.0.0.1:35587
+WebDriver BiDi listening on ws://127.0.0.1:56141
+WebDriver BiDi listening on ws://127.0.0.1:47187
+1667962450255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:37409
+1667962450277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667962450290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667962450336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIKSvPL/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2XGdNh/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemStFNS/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex2INBw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35587/devtools/browser/fa98241e-fb73-41fc-9720-2feb6085b770
+DevTools listening on ws://127.0.0.1:47187/devtools/browser/c65314a4-3143-4186-97ed-0f1b4ee3705b
+DevTools listening on ws://127.0.0.1:37409/devtools/browser/c2c4a960-c4b8-450b-bd71-385d535764a0
+DevTools listening on ws://127.0.0.1:56141/devtools/browser/0b807bcd-06e1-41dc-ae55-e2d1375f462f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667962465843	Marionette	INFO	Stopped listening on port 33455
+1667962466978	Marionette	INFO	Stopped listening on port 34961
+1667962470706	Marionette	INFO	Stopped listening on port 44611
+1667962470774	Marionette	INFO	Stopped listening on port 33993
+1667965236695	geckodriver	INFO	Listening on 127.0.0.1:40777
+1667965236695	geckodriver	INFO	Listening on 127.0.0.1:45211
+1667965236695	geckodriver	INFO	Listening on 127.0.0.1:43097
+1667965236695	geckodriver	INFO	Listening on 127.0.0.1:41697
+1667965237196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "41479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejvO5ik"
+1667965237196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "46199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezboonA"
+1667965237196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "48113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecQGa3i"
+1667965237196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "35015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6Zxkyf"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+1667965239854	Marionette	INFO	Marionette enabled
+1667965239867	Marionette	INFO	Listening on port 43505
+[GFX1-]: glxtest: libEGL missing
+1667965239886	Marionette	INFO	Marionette enabled
+1667965239903	Marionette	INFO	Listening on port 36859
+Read port: 36859
+Read port: 43505
+[GFX1-]: glxtest: libEGL missing
+1667965239949	Marionette	INFO	Marionette enabled
+1667965239959	Marionette	INFO	Listening on port 41351
+1667965239998	Marionette	INFO	Marionette enabled
+Read port: 41351
+1667965240014	Marionette	INFO	Listening on port 41649
+Read port: 41649
+WebDriver BiDi listening on ws://127.0.0.1:48113
+WebDriver BiDi listening on ws://127.0.0.1:35015
+WebDriver BiDi listening on ws://127.0.0.1:41479
+1667965240208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:46199
+1667965240243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667965240267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667965240313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejvO5ik/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6Zxkyf/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezboonA/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecQGa3i/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35015/devtools/browser/6cf23786-3cef-4f92-9652-31729a7e2a8c
+DevTools listening on ws://127.0.0.1:46199/devtools/browser/840f144b-88eb-4c77-b069-f984179232ab
+DevTools listening on ws://127.0.0.1:48113/devtools/browser/010bbed0-18e2-4ed5-9864-b8812ee9dfe9
+DevTools listening on ws://127.0.0.1:41479/devtools/browser/c65f4e9e-19e6-4524-a7fc-74d1b5733f8f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667965261240	Marionette	INFO	Stopped listening on port 41649
+1667965261467	Marionette	INFO	Stopped listening on port 43505
+1667965263663	Marionette	INFO	Stopped listening on port 36859
+1667965263721	Marionette	INFO	Stopped listening on port 41351
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilejvO5ik/protections.sqlite
+1667967372812	geckodriver	INFO	Listening on 127.0.0.1:35741
+1667967372815	geckodriver	INFO	Listening on 127.0.0.1:44515
+1667967372818	geckodriver	INFO	Listening on 127.0.0.1:57285
+1667967372821	geckodriver	INFO	Listening on 127.0.0.1:57097
+1667967372826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "33571" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileM7llLz"
+*** You are running in headless mode.
+1667967373323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "45843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerQCbtP"
+1667967373324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "52867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileadnO0I"
+1667967373325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "51643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA8rB4a"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+1667967375774	Marionette	INFO	Marionette enabled
+[GFX1-]: glxtest: libEGL missing
+1667967375784	Marionette	INFO	Listening on port 41717
+1667967375799	Marionette	INFO	Marionette enabled
+1667967375819	Marionette	INFO	Listening on port 36039
+Read port: 41717
+[GFX1-]: glxtest: libEGL missing
+Read port: 36039
+1667967375845	Marionette	INFO	Marionette enabled
+1667967375853	Marionette	INFO	Listening on port 45267
+1667967375876	Marionette	INFO	Marionette enabled
+1667967375885	Marionette	INFO	Listening on port 33515
+Read port: 45267
+Read port: 33515
+WebDriver BiDi listening on ws://127.0.0.1:52867
+WebDriver BiDi listening on ws://127.0.0.1:33571
+WebDriver BiDi listening on ws://127.0.0.1:51643
+1667967376051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:45843
+1667967376095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667967376110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667967376160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileadnO0I/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerQCbtP/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM7llLz/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA8rB4a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52867/devtools/browser/4bd56593-7093-4896-8b79-53729873e079
+DevTools listening on ws://127.0.0.1:45843/devtools/browser/76fe262d-ade1-4cbb-a2ab-1154ef19e79c
+DevTools listening on ws://127.0.0.1:51643/devtools/browser/c7f3db1d-46a3-4a73-a04d-50053c2bcc6f
+DevTools listening on ws://127.0.0.1:33571/devtools/browser/11a291e3-63db-444e-af8e-130089b5e525
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667967398312	Marionette	INFO	Stopped listening on port 41717
+1667967399259	Marionette	INFO	Stopped listening on port 33515
+1667967400242	Marionette	INFO	Stopped listening on port 36039
+1667967400507	Marionette	INFO	Stopped listening on port 45267
+1667967736186	geckodriver	INFO	Listening on 127.0.0.1:54549
+1667967736192	geckodriver	INFO	Listening on 127.0.0.1:59131
+1667967736197	geckodriver	INFO	Listening on 127.0.0.1:55715
+1667967736199	geckodriver	INFO	Listening on 127.0.0.1:36335
+1667967736205	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "59445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelkLbdf"
+1667967736207	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "41905" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKkmKxY"
+1667967736208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "37827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRVWobJ"
+1667967736211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "50547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0eiJkr"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: libEGL missing
+1667967738646	Marionette	INFO	Marionette enabled
+1667967738660	Marionette	INFO	Listening on port 33121
+[GFX1-]: glxtest: libEGL missing
+1667967738689	Marionette	INFO	Marionette enabled
+1667967738699	Marionette	INFO	Listening on port 37203
+Read port: 33121
+[GFX1-]: glxtest: libEGL missing
+Read port: 37203
+1667967738724	Marionette	INFO	Marionette enabled
+1667967738732	Marionette	INFO	Listening on port 36347
+1667967738755	Marionette	INFO	Marionette enabled
+1667967738764	Marionette	INFO	Listening on port 40975
+WebDriver BiDi listening on ws://127.0.0.1:41905
+Read port: 36347
+Read port: 40975
+WebDriver BiDi listening on ws://127.0.0.1:37827
+WebDriver BiDi listening on ws://127.0.0.1:59445
+1667967738907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:50547
+1667967738947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667967738977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667967738997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRVWobJ/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelkLbdf/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKkmKxY/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0eiJkr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41905/devtools/browser/6912f2b9-a71e-44d1-b1ac-a2e59b1205bf
+DevTools listening on ws://127.0.0.1:50547/devtools/browser/c0daaa2d-42d9-4daa-87b2-a6a1569f2b7b
+DevTools listening on ws://127.0.0.1:37827/devtools/browser/a682e28b-74fd-4810-bed4-7763d08eb6db
+DevTools listening on ws://127.0.0.1:59445/devtools/browser/faa135ed-c2ec-4bb6-967a-f2c2bc62d66b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://livenberg.vercel.app."
+1667967751111	Marionette	INFO	Stopped listening on port 36347
+1667967751128	Marionette	INFO	Stopped listening on port 37203
+1667967751768	Marionette	INFO	Stopped listening on port 33121
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667967752535	Marionette	INFO	Stopped listening on port 40975
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667968634446	geckodriver	INFO	Listening on 127.0.0.1:49403
+1667968634454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXOF1EM"
+[GFX1-]: glxtest: libEGL missing
+1667968637462	Marionette	INFO	Marionette enabled
+1667968637471	Marionette	INFO	Listening on port 39919
+Read port: 39919
+WebDriver BiDi listening on ws://127.0.0.1:40685
+1667968637713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXOF1EM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40685/devtools/browser/187d2770-55b2-4623-82ba-b9091564bbb9
+1667968644618	Marionette	INFO	Stopped listening on port 39919
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

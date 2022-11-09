@@ -1,38 +1,38 @@
 import pytest
 import selenium.webdriver
-import json
+
+
+def pytest_addoption(parser):
+    parser.addoption("--browser", default="headlesschrome")
 
 
 @pytest.fixture
-def config(scope="session"):
-    with open("config.json") as config_file:
-        config = json.load(config_file)
+def browser(request):
+    browser = request.config.getoption("--browser")
 
-    assert config["browser"] in ["Firefox", "Chrome", "Headless Chrome"]
-    assert isinstance(config["implicit_wait"], int)
-    assert config["implicit_wait"] > 0
+    if browser == "firefox":
+        driver = selenium.webdriver.Firefox()
 
-    return config
+    elif browser == "headlessfirefox":
+        opts = selenium.webdriver.FirefoxOptions()
+        opts.add_argument("--headless")
+        driver = selenium.webdriver.Firefox(options=opts)
 
+    elif browser == "chrome":
+        driver = selenium.webdriver.Chrome()
 
-@pytest.fixture
-def browser(config):
-    if config["browser"] == "Firefox":
-        browser = selenium.webdriver.Firefox()
-
-    elif config["browser"] == "Chrome":
-        browser = selenium.webdriver.Chrome()
-
-    elif config["browser"] == "Headless Chrome":
+    elif browser == "headlesschrome":
         opts = selenium.webdriver.ChromeOptions()
-        opts.add_argument("headless")
-        browser = selenium.webdriver.Chrome(options=opts)
+        opts.add_argument("--headless")
+        driver = selenium.webdriver.Chrome(options=opts)
 
     else:
-        raise Exception(f'{config["browser"]} not supported')
+        raise Exception(
+            f'Browser "{browser}" not supported. --browser options: "firefox", "chrome", "headlessfirefox" or "headlesschrome"'
+        )
 
-    browser.implicitly_wait(config["implicit_wait"])
+    driver.implicitly_wait(10)
 
-    yield browser
+    yield driver
 
-    browser.quit()
+    driver.quit()

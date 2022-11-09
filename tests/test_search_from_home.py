@@ -5,8 +5,7 @@ from pages.result import LivenbergResultPage
 
 
 @pytest.mark.parametrize("query", ["  AusteN  ", "leo   tolsToy  "])
-# @pytest.mark.parametrize("query", ["   ausTEN  ", "leo   tolsToy  "])
-def test_search_same_author(browser, query):
+def test_search_from_home(browser, query):
     home_page = LivenbergHomePage(browser)
     result_page = LivenbergResultPage(browser)
 
