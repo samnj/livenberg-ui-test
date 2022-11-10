@@ -1,27 +1,29 @@
 from selenium.webdriver.common.by import By
 
+from pages.model_page import ModelPage
 
-class LivenbergResultPage:
+
+class LivenbergResultPage(ModelPage):
     SEARCH_RESULTS = (By.ID, "searchResults")
     URL = "https://livenberg.vercel.app/results/books?search="
 
-    def __init__(self, browser):
-        self.browser = browser
+    def __init__(self, driver):
+        super().__init__(driver)
 
     def load(self, URLQuery):
-        self.browser.get(self.URL + URLQuery)
+        self.driver.get(self.URL + URLQuery)
 
     def count(self):
-        result = self.browser.find_element(*self.SEARCH_RESULTS)
+        result = self.driver.find_element(*self.SEARCH_RESULTS)
         count = result.text.split()[0]
         return count
 
     def author(self):
-        result = self.browser.find_element(*self.SEARCH_RESULTS)
+        result = self.driver.find_element(*self.SEARCH_RESULTS)
         author = result.text.split('"')[1]
         return author
 
     def url_query(self):
-        url = self.browser.current_url
+        url = self.driver.current_url
         query = url.split("=")[1]
         return query

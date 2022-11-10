@@ -1,17 +1,24 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+from pages.model_page import ModelPage
 
-class LivenbergHomePage:
+
+class LivenbergHomePage(ModelPage):
     URL = "https://livenberg.vercel.app/"
     SEARCH_INPUT = (By.ID, "searchBar")
+    HOME_HEADER = (By.CSS_SELECTOR, "h1")
 
-    def __init__(self, browser):
-        self.browser = browser
+    def __init__(self, driver):
+        super().__init__(driver)
 
     def load(self):
-        self.browser.get(self.URL)
+        self.driver.get(self.URL)
 
     def search(self, query):
-        search_input = self.browser.find_element(*self.SEARCH_INPUT)
-        search_input.send_keys(query + Keys.RETURN)
+        search_input = self.driver.find_element(*self.SEARCH_INPUT)
+        self.write_text(search_input, query)
+        search_input.submit()
+
+    def get_home_header(self):
+        return self.get_text(self.HOME_HEADER)

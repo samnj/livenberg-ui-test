@@ -5,9 +5,9 @@ from pages.result import LivenbergResultPage
 
 
 @pytest.mark.parametrize("query", ["  AusteN  ", "leo   tolsToy  "])
-def test_search_from_home(browser, query):
-    home_page = LivenbergHomePage(browser)
-    result_page = LivenbergResultPage(browser)
+def test_search_from_home(driver, query):
+    home_page = LivenbergHomePage(driver)
+    result_page = LivenbergResultPage(driver)
 
     # Given the home page loaded
     home_page.load()

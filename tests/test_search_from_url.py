@@ -4,8 +4,8 @@ from pages.result import LivenbergResultPage
 
 
 @pytest.mark.parametrize("URLQuery", ["austen%2Bjane", "ausTEn%2BJane"])
-def test_search_from_url(browser, URLQuery):
-    result_page = LivenbergResultPage(browser)
+def test_search_from_url(driver, URLQuery):
+    result_page = LivenbergResultPage(driver)
 
     # Given the result page loaded from a given URL query
     result_page.load(URLQuery)

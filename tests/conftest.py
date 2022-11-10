@@ -1,6 +1,5 @@
 import pytest
 import selenium.webdriver
-import json
 
 
 def pytest_addoption(parser):
@@ -8,7 +7,7 @@ def pytest_addoption(parser):
 
 
 @pytest.fixture
-def browser(request):
+def driver(request):
     browser = request.config.getoption("--browser")
 
     if browser == "firefox":
